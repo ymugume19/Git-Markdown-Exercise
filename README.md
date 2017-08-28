@@ -7,12 +7,16 @@ This exercise will take you through the process of using Git and Unix. For this,
 First, you must make a user account on GitHub if you don't have one already. Be sure to choose a user ID that you are happy using for the rest of your professional career as a bioinformatician. GitHub is a very important tool for computational biology and if you continue working in data-intensive fields, you will be using this account again in the future. Join GitHub here:
 [https://github.com/join](https://github.com/join).
 
+Once you have an account, be sure to log in.
 
 ## Git Exercise Part 1
 
 ### Fork the Repository
 
-Now that you have your own GitHub account you can fork [this](https://github.com/EEOB-BioData/Unix-Git-Exercise) repository by clicking the **_Fork_** button at the upper right corner of the repository page.
+Now that you have your own GitHub account you can fork [this](https://github.com/EEOB-BioData/Unix-Git-Exercise) repository.
+A _fork_ creates a copy of a GitHub repository in your own GitHub account. Thus, you have permission to make changes to the content of your copied repository without ever changing the original one. At the time of your fork, you will copy all of the current contents and the two repositories are now independent. So if someone commits changes to the original repository, they will not affect your forked copy.
+
+Fork the original repository [https://github.com/EEOB-BioData/Unix-Git-Exercise](https://github.com/EEOB-BioData/Unix-Git-Exercise) by clicking the **_Fork_** button at the upper right corner of the repository page.
 
 <img src="https://help.github.com/assets/images/help/repository/fork_button.jpg">
 
