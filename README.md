@@ -20,7 +20,7 @@ Fork the original repository [https://github.com/EEOB-BioData/Unix-Git-Exercise]
 
 <img src="https://help.github.com/assets/images/help/repository/fork_button.jpg">
 
-This will take you to the GitHub page for your very own GitHub repository! It should have the URL (where `<your GitHub ID>` should be your new GitHub ID):
+This will take you to the GitHub page for your very own GitHub repository! It should have a URL like the one below (where `<your GitHub ID>` should be your new GitHub ID):
 
 ```
 https://github.com/<your GitHub ID>/Unix-Git-Exercise
@@ -52,7 +52,7 @@ cd Unix-Git-Exercise
 
 Now that you have completed all of the Unix tasks and you are more familiar with the Unix environment, push your changes and new files to your version of the exercise repository.
 
-First you will have to stage all of your changes by _add_ing them:
+First you will have to stage all of your changes by adding them:
 
 ```
 git add .
