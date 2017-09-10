@@ -104,7 +104,11 @@ git push
 
 ### Share your folder by pull request
 
-If you would like to share your notes with the class, add them to the course repository that you had initially forked. 
+If you would like to share your notes with the class, add them to the course repository that you had initially forked with a pull request. 
+
+This is from Github's [Using Pull Requests Page](https://help.github.com/articles/about-pull-requests/):
+
+>Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
 Begin by going to [https://github.com/EEOB-BioData/Git-Markdown-Exercise](https://github.com/EEOB-BioData/Git-Markdown-Exercise) and clicking on the **New pull request** button near the top.
 
@@ -121,6 +125,8 @@ Once you have done this, you have *opened a pull request*. GitHub then makes it 
 When you complete the message click the green **Create pull request** button.
 
 Your changes to the repository will not be incorporated into the original repository until one of the repository administrators reviews and accepts the edits.
+
+
 
 
 Git! Git! Hooray!
