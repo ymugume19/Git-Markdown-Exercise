@@ -108,7 +108,7 @@ If you would like to share your notes with the class, add them to the course rep
 
 This is from Github's [Using Pull Requests Page](https://help.github.com/articles/about-pull-requests/):
 
->Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+>Pull requests let you tell others about changes you've pushed to a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before the changes are merged into the repository.
 
 Begin by going to [https://github.com/EEOB-BioData/Git-Markdown-Exercise](https://github.com/EEOB-BioData/Git-Markdown-Exercise) and clicking on the **New pull request** button near the top.
 
