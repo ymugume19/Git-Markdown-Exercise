@@ -80,6 +80,8 @@ Although you can write whatever you like, here are some things that you may cons
 
 ## Git Exercise Part 2
 
+### Push the changes to your remote repository
+
 Now that you have completed the Markdown exercise, push your changes and new files to your version of the exercise repository.
 
 First you will have to stage all of your changes by adding them, if your current working directory is in the repository, then you simple have to stage all the new files:
@@ -99,5 +101,26 @@ With the changes committed to your local repository, you can now push them to yo
 ```
 git push
 ```
+
+### Share your folder by pull request
+
+If you would like to share your notes with the class, add them to the course repository that you had initially forked. 
+
+Begin by going to [https://github.com/EEOB-BioData/Git-Markdown-Exercise](https://github.com/EEOB-BioData/Git-Markdown-Exercise) and clicking on the **New pull request** button near the top.
+
+This will bring you to a page that will allow you to compare across changes. Since you wish to submit changes on a different fork, then click on the hyperlinked phrase **compare across forks**.
+
+Then change the head fork to your own copy of the repository
+
+![](images/screen-shot-pull-req.png)
+
+Once you have done this, you have *opened a pull request*. GitHub then makes it possible for you to review the differences between the two repositories. You can then write a message about this merge. It is always important for these messages to be thorough and thoughtful.
+
+![](images/screen-shot-pull-req2.png)
+
+When you complete the message click the green **Create pull request** button.
+
+Your changes to the repository will not be incorporated into the original repository until one of the repository administrators reviews and accepts the edits.
+
 
 Git! Git! Hooray!
