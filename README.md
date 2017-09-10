@@ -1,6 +1,6 @@
-# EEOB/BCB 546X Unix Git Exercise
+# EEOB/BCB 546X Git/Markdown Exercise
 
-This exercise will take you through the process of using Git and Unix. For this, you will first create a GitHub account. Once you have done that, you will 'fork' this repository to your account. Then you can clone your version of the repository to the class cluster (or your own machine) and then follow the Unix tasks on the cluster. Once you have completed the Unix part of the exercise, you will push the changes to your repository.
+This exercise will take you through the process of using Git and Markdown. For this, you will first create a GitHub account. Once you have done that, you will 'fork' this repository to your account. Then you can clone your version of the repository to the class cluster (or your own machine) and then follow the instructions for working with Markdown. Once you have completed the Markdown file, you will push the changes to your repository.
 
 ## Get a GitHub User Account
 
@@ -37,22 +37,52 @@ ssh <ISU NetID>@hpc-class.its.iastate.edu
 Once you have logged on to the cluster, clone your forked repository to your home directory (replace `<your GitHub ID>` with your GitHub ID):
 
 ```
-git clone https://github.com/<your GitHub ID>/Unix-Git-Exercise
+git clone git@github.com:EEOB-BioData/Git-Markdown-Exercise.git
 ```
+
+If you haven't added your SSH key to your GitHub account, you cannot use the URL above and will instead have to use `https` URL.
 
 Now change to the `Unix-Git-Exercise` directory and follow the Unix exercise steps in the next section.
 
 ```
-cd Unix-Git-Exercise
+cd Git-Markdown-Exercise
 ```
 
-## Unix Exercise
+## Markdown Exercise
+
+For this part of the exercise, we ask that you create a document that is formatted in Markdown in a new sub-directory. In the document, you can write whatever you want, but try to use some Markdown formatting. 
+
+### Exercise steps
+
+1. Create a new directory (call it whatever you like).
+2. Add a new `README.md` file to your new directory and give a description of the contents of the directory.
+3. Create a new Markdown file `<filename>.md`, replace `<filename>` with whatever name you'd like to give the file.
+4. Write whatever you'd like in the new Markdown file. Use [different types of Markdown formatting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to render a nice and readable file. 
+
+#### Suggestions for content
+
+Although you can write whatever you like, here are some things that you may consider if you are feeling uninspired:
+
+* Take notes on Chapter 5 of *Bioinformatics Data Skills*
+* Make a list of things that you like or do not like about Git. What do you feel that is really challenging? How do you think you can overcome these challenges?
+* Make a table of useful Unix and/or Git commands with their descriptions.
+* Write a description of your research and how computational skills will help you in your work.
+
+#### Helpful Markdown resources
+
+* Freely available editors that make writing in Markdown pretty easy
+    * Windows and Linux: [REMARKABLE](https://remarkableapp.github.io/)
+    * Mac OSX: [MacDown](http://macdown.uranusjr.com/)
+* Online Markdown editors:
+    * [Dillinger](http://dillinger.io/)
+    * [StackEdit](https://stackedit.io/)
+* Markdown Cheat Sheet [[link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)]
 
 ## Git Exercise Part 2
 
-Now that you have completed all of the Unix tasks and you are more familiar with the Unix environment, push your changes and new files to your version of the exercise repository.
+Now that you have completed the Markdown exercise, push your changes and new files to your version of the exercise repository.
 
-First you will have to stage all of your changes by adding them:
+First you will have to stage all of your changes by adding them, if your current working directory is in the repository, then you simple have to stage all the new files:
 
 ```
 git add .
