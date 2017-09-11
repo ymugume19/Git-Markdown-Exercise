@@ -37,7 +37,7 @@ ssh <ISU NetID>@hpc-class.its.iastate.edu
 Once you have logged on to the cluster, clone your forked repository to your home directory (replace `<your GitHub ID>` with your GitHub ID):
 
 ```
-git clone git@github.com:<GitHub ID>/Git-Markdown-Exercise.git
+git clone git@github.com:<your GitHub ID>/Git-Markdown-Exercise.git
 ```
 
 If you haven't added your SSH key to your GitHub account, you cannot use the URL above and will instead have to use `https` URL.
