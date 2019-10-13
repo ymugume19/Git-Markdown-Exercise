@@ -1,4 +1,4 @@
-# EEOB/BCB 546X Git/Markdown Exercise
+ABCD# EEOB/BCB 546X Git/Markdown Exercise
 
 This exercise will take you through the process of using Git and Markdown. For this, you will first create a GitHub account. Once you have done that, you will 'fork' this repository to your account. Then you can clone your version of the repository to the class cluster (or your own machine) and then follow the instructions for working with Markdown. Once you have completed the Markdown file, you will push the changes to your repository.
 
